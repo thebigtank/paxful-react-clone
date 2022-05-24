@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/header.scss'
 import logo from '../assets/logo.svg'
 import HeaderGroupedButton from './HeaderGroupedButton'

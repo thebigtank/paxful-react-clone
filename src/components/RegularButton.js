@@ -1,9 +1,8 @@
-import React from 'react'
 import '../styles/regularbutton.scss'
 
 function RegularButton({ btnColor, backgroundColor, title }) {
   return (
-    <button class="regularbtn btn" style={{ color: btnColor, background: backgroundColor, border: backgroundColor }}>{title}</button>
+    <button className="regular__btn" style={{ color: btnColor, background: backgroundColor, border: backgroundColor }}>{title}</button>
   )
 }
 
