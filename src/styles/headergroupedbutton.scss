@@ -1,0 +1,29 @@
+.header__grouped-btn {
+    display: flex;
+    border: 1px solid #d8d8d8;
+    overflow: hidden;
+    border-radius: 4px;
+    .btn {
+        display: block;
+        padding: 4px 14px;
+        text-decoration: none;
+        border-right: 1px solid #d8d8d8;
+        font-weight: 500;
+        color: #333;
+        text-transform: capitalize;
+        &:hover {
+            background-color: #f8f8f8;
+        }
+    }
+    .dropdown {
+        border: none;
+        background-color: transparent;
+        font-size: 18px;
+        padding: 0 6px;
+        line-height: 0;
+        cursor: pointer;
+        &:hover {
+            background-color: #f8f8f8;
+        }
+    }
+}
