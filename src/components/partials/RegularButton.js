@@ -1,4 +1,4 @@
-import '../styles/regularbutton.scss'
+import '../../styles/partials/regularbutton.scss'
 
 function RegularButton({ btnColor, backgroundColor, title }) {
   return (

@@ -10,6 +10,12 @@ header {
     .col {
         display: flex;
         align-items: center;
+        .icon__btn.mobile__menu {
+            margin-right: 1rem;
+            @media screen and (min-width: 1200px) {
+                display: none;
+            }
+        }
     }
 
     .header__logo {
@@ -34,14 +40,18 @@ header {
                     color: #46127b;
                 }
             }
-            @media screen and (max-width: 1200px) {
-                &:nth-child(3) {
-                    display: none;
+        }
+        &.main-menu {
+            li {
+                @media screen and (max-width: 1200px) {
+                    &:nth-child(3) {
+                        display: none;
+                    }
                 }
-            }
-            @media screen and (max-width: 1100px) {
-                &:nth-child(5), &:last-child {
-                    display: none;
+                @media screen and (max-width: 1100px) {
+                    &:nth-child(5), &:last-child {
+                        display: none;
+                    }
                 }
             }
         }

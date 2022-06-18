@@ -1,4 +1,4 @@
-import '../styles/headergroupedbutton.scss'
+import '../../styles/partials/headergroupedbutton.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function HeaderGroupedButton({ title }) {
