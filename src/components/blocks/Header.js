@@ -24,7 +24,7 @@ function Header() {
         <div className="col">
           <ul className="sub-menu">
               <li><a href="/">Log in</a></li>
-              <li><RegularButton btnColor="#fff" backgroundColor="#00a5ef" title="register" /></li>
+              <li><RegularButton btnClassName="blue__btn" title="register" /></li>
               <li><IconButtonIO btnClassName="select__country" iconVal="earth-outline" /></li>
           </ul>
         </div>

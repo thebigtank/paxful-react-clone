@@ -5,4 +5,22 @@
     border-radius: 0.25rem;
     font-weight: 600;
     color: #333;
+    transition: all 150ms ease-in-out;
+    &.white__btn {
+        color: #333;
+        background-color: #fff;
+        border-color: #d8d8d8;
+        &:hover {
+            background-color: #f8f8f8;
+        }
+    }
+    &.blue__btn {
+        color: #fff;
+        background-color: #00a5ef;
+        border-color: #00a5ef;
+        &:hover {
+            background-color: #0091d2;
+            border-color: #0091d2;
+        }
+    }
 }

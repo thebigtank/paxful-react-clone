@@ -1,8 +1,8 @@
 import '../../styles/partials/regularbutton.scss'
 
-function RegularButton({ btnColor, backgroundColor, title }) {
+function RegularButton({ btnClassName, title }) {
   return (
-    <button className="regular__btn" style={{ color: btnColor, background: backgroundColor, border: backgroundColor }}>{title}</button>
+    <button className={"regular__btn " + (btnClassName)}>{title}</button>
   )
 }
 
