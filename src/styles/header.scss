@@ -1,7 +1,7 @@
 header {
     border-bottom: 1px solid #d8d8d8;
+    padding: 0.9375rem 0;
     .wrapper {
-        padding: 15px 0;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -13,7 +13,7 @@ header {
     }
 
     .header__logo {
-        height: 18px;
+        height: 1rem;
     }
 
     
@@ -23,15 +23,25 @@ header {
         li {
             list-style: none;
             float: left;
-            margin-left: 20px;
+            margin-left: 1.25rem;
             a {
                 text-decoration: none;
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-weight: 500;
                 color: #333;
                 text-transform: capitalize;
                 &:hover {
                     color: #46127b;
+                }
+            }
+            @media screen and (max-width: 1200px) {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+            @media screen and (max-width: 1100px) {
+                &:nth-child(5), &:last-child {
+                    display: none;
                 }
             }
         }

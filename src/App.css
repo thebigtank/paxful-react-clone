@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 .wrapper {
-  max-width: 1400px;
+  max-width: 75rem;
   margin: 0 auto;
+  padding: 0 2.5rem;
 }
 
 .col {
@@ -13,7 +18,7 @@
 }
 
 button {
-  height: 30px;
+  height: 1.875rem;
   border: none;
   background-color: transparent;
   cursor: pointer;
