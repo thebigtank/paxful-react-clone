@@ -1,5 +1,5 @@
 import '../../styles/blocks/hero.scss'
-import TradeForm from '../partials/TradeForm'
+import TradeApp from '../partials/TradeApp'
 
 function Hero() {
     return (
@@ -8,7 +8,7 @@ function Hero() {
                 <div className="row">
                     <div className="col"></div>
                     <div className="col">
-                        <TradeForm />
+                        <TradeApp />
                     </div>
                 </div>
             </div>

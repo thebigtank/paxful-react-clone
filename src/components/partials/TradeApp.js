@@ -1,13 +1,14 @@
-import '../../styles/partials/tradeform.scss'
+import '../../styles/partials/tradeapp.scss'
 import btcICO from '../../assets/bitcoin.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import RegularButton from '../partials/RegularButton'
 
-function TradeForm() {
+function TradeApp() {
     return (
-        <form action="">
+        <div className="trade__app">
             <div className="form__group">
                 <div className="top__grp">
-                    <label htmlFor="">buy</label>
+                    <span className="label">buy</span>
                     <button className="btn switch-trade">
                         <span className="title">sell</span>
                         <i className="ico"><FontAwesomeIcon icon="fa-solid fa-angle-right" /></i>
@@ -23,15 +24,29 @@ function TradeForm() {
                     </button>
                 </div>
                 <div className="crypto__rate">
-                    <p>
-                        <span className="amt">1 btc = </span>
+                    <span className="amt">1 btc = </span>
+                    <div className="grp">
                         <span className="rate__val">11,764.621.4 ngn</span>
-                    </p>
-                    <i className="ico"><FontAwesomeIcon icon="fa-solid fa-arrow-trend-up" /></i>
+                        <i className="ico"><FontAwesomeIcon icon="fa-solid fa-arrow-trend-up" /></i>
+                    </div>
                 </div>
             </div>
-        </form>
+            <div className="form__group">
+                <div className="top__grp">
+                    <span className="label">pay via</span>
+                </div>
+                <div className="payment__selector">
+                    <div className="selected__payment">
+                        <span>Select payment method (350+)</span>
+                        <RegularButton btnClassName="btn border__btn" title="Show all" />
+                    </div>
+                </div>
+                <div className="payments__list">
+                    
+                </div>
+            </div>
+        </div>
   )
 }
 
-export default TradeForm
+export default TradeApp

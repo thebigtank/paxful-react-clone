@@ -24,4 +24,10 @@
             border-color: #0091d2;
         }
     }
+    &.border__btn {
+        border-color: #00a5ef;
+        &:hover {
+            background-color: #f4fafd;
+        }
+    }
 }
