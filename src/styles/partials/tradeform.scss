@@ -1,0 +1,88 @@
+.form__group {
+    width: inherit;
+    background-color: #fff;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(51,51,51,.08);
+    .top__grp {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    label {
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 0.875rem;
+    }
+    .switch-trade {
+        display: flex;
+        align-items: center;
+        color: #0052cc;
+        .title {
+            text-transform: capitalize;
+            margin-right: 8px;
+            font-size: 0.875rem;
+        }
+        .ico {
+            font-size: 1.05rem;
+        }
+    }
+
+    .crypto__selector {
+        width: 100%;
+        margin-top: 4px;
+        .selected__crypto {
+            width: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #d8d8d8;
+            border-radius: 4px;
+            height: 3.125rem;
+            padding: 0 14px;
+            transition: all 150ms ease-in-out;
+            .coin {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 18px;
+                }
+                span {
+                    text-transform: capitalize;
+                    font-size: 0.875rem;
+                    margin-left: 0.5rem;
+                }
+            }
+            .ico {
+                font-size: 20px;
+                color: #a9a9a9;
+            }
+            &:hover {
+                background-color: #f8f8f8;
+            }
+            &:active {
+                box-shadow: inset 0 4px 6px rgba(51,51,51,.15);
+            }
+        }
+    }
+
+    .crypto__rate {
+        display: flex;
+        align-items: center;
+        margin-top: 8px;
+        p {
+            text-transform: uppercase;
+            font-size: 0.875rem;
+            .amt {
+                color: #848484;
+            }
+            .rate__val {
+                color: #0052cc;
+            }
+        }
+        .ico {
+            margin-left: 8px;
+            color: #0052cc;
+        }
+    }
+}

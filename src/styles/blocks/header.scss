@@ -1,7 +1,11 @@
-header {
+.block.header {
     border-bottom: 1px solid #d8d8d8;
     padding: 0.9375rem 0;
     .wrapper {
+
+    }
+
+    .row {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -32,8 +36,8 @@ header {
             margin-left: 1.25rem;
             a {
                 text-decoration: none;
-                font-size: 0.875rem;
-                font-weight: 500;
+                font-size: 0.85rem;
+                font-weight: 600;
                 color: #333;
                 text-transform: capitalize;
                 &:hover {
