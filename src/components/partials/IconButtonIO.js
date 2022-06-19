@@ -2,7 +2,7 @@ import '../../styles/partials/iconbutton.scss'
 
 function IconButtonIO({btnClassName, iconVal}) {
   return (
-    <button className={"icon__btn " + (btnClassName)}>
+    <button className={"icon__btn btn " + (btnClassName)}>
       <ion-icon name={iconVal}></ion-icon>
     </button>
   )

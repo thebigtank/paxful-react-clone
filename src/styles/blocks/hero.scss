@@ -1,0 +1,21 @@
+.block.hero {
+    padding: 4rem 0;
+    background-color: #f9f7fb;
+    .wrapper {
+
+    }
+
+    .row {
+
+    }
+
+    .col {
+        &:first-child {
+            width: 60%;
+        }
+        &:last-child {
+            width: 40%;
+        }
+    }
+
+}
