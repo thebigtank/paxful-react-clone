@@ -30,4 +30,7 @@
             background-color: #f4fafd;
         }
     }
+    &:active {
+        box-shadow: inset 0 4px 6px rgba(51,51,51,.15);
+    }
 }

@@ -42,7 +42,13 @@ function TradeApp() {
                     </div>
                 </div>
                 <div className="payments__list">
-                    
+                    <div className="scroll__container">
+                        <RegularButton btnClassName="btn white__btn" title="bank transfer" />
+                        <RegularButton btnClassName="btn white__btn" title="MTN mobile money" />
+                        <RegularButton btnClassName="btn white__btn" title="chipper cash" />
+                        <RegularButton btnClassName="btn white__btn" title="perfect money" />
+                        <RegularButton btnClassName="btn white__btn" title="Cash Deposit to Bank" />
+                    </div>
                 </div>
             </div>
         </div>
